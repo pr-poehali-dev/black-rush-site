@@ -54,7 +54,7 @@ export default function Index() {
           </div>
 
           <h1 className="font-display text-6xl md:text-8xl font-black uppercase leading-none tracking-tight mb-4">
-            <span className="block text-white">Black</span>
+            <span className="block text-white">Hero</span>
             <span className="block text-[#e8c84a] [text-shadow:0_0_40px_rgba(232,200,74,0.4)]">
               Russia
             </span>
