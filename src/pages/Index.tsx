@@ -13,7 +13,7 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 bg-black/60 backdrop-blur-md border-b border-[#1a1a1a]">
         <span className="font-display text-xl tracking-[0.15em] text-[#e8c84a] uppercase">
-          Black Russia
+          Hero Russia
         </span>
         <div className="hidden md:flex items-center gap-8">
           {[
@@ -108,7 +108,7 @@ export default function Index() {
                 <span className="text-[#e8c84a]">начинается здесь</span>
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Black Russia — это ролевой сервер с глубокой экономикой, живым
+                Hero Russia — это ролевой сервер с глубокой экономикой, живым
                 миром и сотнями игроков. Каждое решение имеет последствия.
                 Каждый союзник — потенциальный враг.
               </p>
@@ -216,7 +216,7 @@ export default function Index() {
       <footer className="border-t border-[#1a1a1a] py-8 px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="font-display text-[#e8c84a] tracking-widest uppercase text-sm">
-            Black Russia
+            Hero Russia
           </span>
           <p className="text-gray-600 text-xs tracking-wider">
             © 2024 Black Russia. Все права защищены.
