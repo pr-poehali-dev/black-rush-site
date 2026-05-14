@@ -178,22 +178,8 @@ export default function Index() {
             </span>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-1 gap-6 max-w-sm">
             {[
-              {
-                icon: "MessageCircle",
-                title: "Discord",
-                desc: "Основное сообщество",
-                link: "#",
-                label: "Перейти в Discord",
-              },
-              {
-                icon: "Send",
-                title: "Telegram",
-                desc: "Новости и анонсы",
-                link: "#",
-                label: "Наш канал",
-              },
               {
                 icon: "Globe",
                 title: "Форум",
