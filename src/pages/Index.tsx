@@ -184,13 +184,15 @@ export default function Index() {
                 icon: "Globe",
                 title: "Форум",
                 desc: "Обсуждения и помощь",
-                link: "#",
+                link: "https://whg111652.sampproject.ru/index.php?forums/main-forum.2/",
                 label: "Открыть форум",
               },
             ].map((contact) => (
               <a
                 key={contact.title}
                 href={contact.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group block bg-[#111] border border-[#1e1e1e] p-8 hover:border-[#e8c84a]/40 transition-all duration-300 hover:bg-[#131313]"
               >
                 <Icon
