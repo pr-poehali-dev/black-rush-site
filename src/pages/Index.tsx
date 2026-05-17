@@ -66,9 +66,7 @@ export default function Index() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://disk.yandex.ru/d/-0hyBHTPPOK6fA"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
               className="group relative inline-flex items-center gap-3 bg-[#e8c84a] text-black font-display font-bold uppercase tracking-widest px-10 py-4 text-sm overflow-hidden transition-all duration-300 hover:bg-white hover:shadow-[0_0_30px_rgba(232,200,74,0.5)]"
             >
               <Icon name="Play" size={18} />
