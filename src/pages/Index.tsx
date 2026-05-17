@@ -66,7 +66,9 @@ export default function Index() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#"
+              href="https://disk.yandex.ru/d/-0hyBHTPPOK6fA"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative inline-flex items-center gap-3 bg-[#e8c84a] text-black font-display font-bold uppercase tracking-widest px-10 py-4 text-sm overflow-hidden transition-all duration-300 hover:bg-white hover:shadow-[0_0_30px_rgba(232,200,74,0.5)]"
             >
               <Icon name="Play" size={18} />
@@ -159,7 +161,9 @@ export default function Index() {
             Присоединяйся прямо сейчас. Сервер ждёт.
           </p>
           <a
-            href="#"
+            href="https://disk.yandex.ru/d/-0hyBHTPPOK6fA"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-black text-[#e8c84a] font-display font-bold uppercase tracking-widest px-12 py-5 text-sm hover:bg-[#111] transition-colors duration-300"
           >
             <Icon name="Gamepad2" size={20} />
