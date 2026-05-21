@@ -182,7 +182,7 @@ export default function Index() {
             </span>
           </div>
 
-          <div className="grid md:grid-cols-1 gap-6 max-w-sm">
+          <div className="grid md:grid-cols-2 gap-6 max-w-2xl">
             {[
               {
                 icon: "Globe",
@@ -190,6 +190,13 @@ export default function Index() {
                 desc: "Обсуждения и помощь",
                 link: "https://whg111652.sampproject.ru/index.php?forums/main-forum.2/",
                 label: "Открыть форум",
+              },
+              {
+                icon: "Music2",
+                title: "TikTok",
+                desc: "Наш TikTok канал",
+                link: "https://tiktok.com/@nova.russia.legend",
+                label: "Перейти в TikTok",
               },
             ].map((contact) => (
               <a
