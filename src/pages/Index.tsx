@@ -199,6 +199,13 @@ export default function Index() {
                 label: "Перейти в TikTok",
               },
               {
+                icon: "Tv2",
+                title: "Twitch",
+                desc: "Смотри стримы в прямом эфире",
+                link: "https://www.twitch.tv/maksim63566",
+                label: "Перейти на Twitch",
+              },
+              {
                 icon: "Heart",
                 title: "Пожертвование автору",
                 desc: "Поддержи развитие проекта",
