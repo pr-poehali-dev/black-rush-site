@@ -202,7 +202,7 @@ export default function Index() {
                 icon: "Tv2",
                 title: "Twitch",
                 desc: "Смотри стримы в прямом эфире",
-                link: "https://www.twitch.tv/maksim63566",
+                link: "https://www.twitch.tv/hero_russia_kopia",
                 label: "Перейти на Twitch",
               },
               {
