@@ -1,9 +1,19 @@
+import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_BG =
   "https://cdn.poehali.dev/projects/0236e050-22a6-4752-8e9b-0985530f876f/bucket/9bac71fb-a137-4845-9bd5-53158479a195.jpg";
 
 export default function Index() {
+  const CARD_NUMBER = "2202 2088 8257 2556";
+  const [copied, setCopied] = useState(false);
+
+  const copyCard = () => {
+    navigator.clipboard.writeText(CARD_NUMBER.replace(/\s/g, ""));
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -242,6 +252,24 @@ export default function Index() {
                 </span>
               </a>
             ))}
+          </div>
+
+          {/* DONATE CARD */}
+          <div className="mt-6 max-w-2xl mx-auto bg-[#111] border border-[#1e1e1e] p-8 hover:border-[#e8c84a]/40 transition-all duration-300">
+            <Icon name="CreditCard" size={24} className="text-[#e8c84a] mb-4" />
+            <h4 className="font-display text-xl font-bold text-white mb-1 uppercase tracking-wider">Донат на карту</h4>
+            <p className="text-gray-500 text-sm mb-4">Перевод через СБП или банковскую карту</p>
+            <div className="flex items-center gap-3 bg-[#0a0a0a] border border-[#2a2a2a] px-4 py-3 mb-4">
+              <span className="font-mono text-[#e8c84a] tracking-widest text-lg flex-1">{CARD_NUMBER}</span>
+              <button
+                onClick={copyCard}
+                className="flex items-center gap-2 text-xs uppercase tracking-wider text-white/60 hover:text-[#e8c84a] transition-colors duration-200"
+              >
+                <Icon name={copied ? "Check" : "Copy"} size={14} />
+                {copied ? "Скопировано" : "Скопировать"}
+              </button>
+            </div>
+            <p className="text-gray-600 text-xs">Сбербанк · СБП доступен по номеру телефона</p>
           </div>
         </div>
       </section>
