@@ -206,6 +206,13 @@ export default function Index() {
                 label: "Перейти на Twitch",
               },
               {
+                icon: "Users",
+                title: "ВК Сообщество",
+                desc: "Наше сообщество ВКонтакте",
+                link: "https://vk.com/hero_russia_4334",
+                label: "Вступить в сообщество",
+              },
+              {
                 icon: "Heart",
                 title: "Пожертвование автору",
                 desc: "Поддержи развитие проекта",
