@@ -253,7 +253,7 @@ export default function Index() {
             Hero Russia
           </span>
           <p className="text-gray-600 text-xs tracking-wider">
-            © 2024 Black Russia. Все права защищены.
+            © 2026 HERO RUSSIA Все права защищены.
           </p>
         </div>
       </footer>
