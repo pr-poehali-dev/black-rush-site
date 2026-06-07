@@ -1,7 +1,7 @@
 import Icon from "@/components/ui/icon";
 
 const HERO_BG =
-  "https://cdn.poehali.dev/projects/0236e050-22a6-4752-8e9b-0985530f876f/files/8f485283-5b5c-4796-be7f-370e7e7de43a.jpg";
+  "https://cdn.poehali.dev/projects/0236e050-22a6-4752-8e9b-0985530f876f/bucket/9bac71fb-a137-4845-9bd5-53158479a195.jpg";
 
 export default function Index() {
   const scrollTo = (id: string) => {
