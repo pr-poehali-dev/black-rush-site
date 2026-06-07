@@ -198,6 +198,13 @@ export default function Index() {
                 link: "https://tiktok.com/@nova.russia.legend",
                 label: "Перейти в TikTok",
               },
+              {
+                icon: "Heart",
+                title: "Пожертвование автору",
+                desc: "Поддержи развитие проекта",
+                link: "https://www.donationalerts.com/r/maksim63566",
+                label: "Задонатить",
+              },
             ].map((contact) => (
               <a
                 key={contact.title}
