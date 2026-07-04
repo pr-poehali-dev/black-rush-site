@@ -229,6 +229,13 @@ export default function Index() {
                 link: "https://www.donationalerts.com/r/maksim63566",
                 label: "Задонатить",
               },
+              {
+                icon: "ShieldCheck",
+                title: "Подача на администрацию",
+                desc: "Хочешь стать частью команды?",
+                link: "https://hero-moderation-portal--preview.poehali.dev/",
+                label: "Подать заявку",
+              },
             ].map((contact) => (
               <a
                 key={contact.title}
