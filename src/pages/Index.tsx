@@ -236,6 +236,13 @@ export default function Index() {
                 link: "https://hero-moderation-portal--preview.poehali.dev/",
                 label: "Подать заявку",
               },
+              {
+                icon: "Handshake",
+                title: "Подача на сотрудничество",
+                desc: "Предложи сотрудничество проекту",
+                link: "https://hero-russia-collab-site--preview.poehali.dev/",
+                label: "Подать заявку",
+              },
             ].map((contact) => (
               <a
                 key={contact.title}
